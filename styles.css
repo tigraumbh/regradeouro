@@ -1,0 +1,83 @@
+:root{
+  --bg:#000; --panel:#0b0b0b; --panel-2:#111; --muted:#bdbdbd;
+  --text:#f7f7f7; --gold:#ffd54a; --gold-2:#f2b705;
+  --border:#222;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; font-family:system-ui, Arial, sans-serif;
+  background:var(--bg); color:var(--text);
+}
+
+/* Layout helpers */
+.container{max-width:1120px;margin:0 auto;padding:0 20px}
+.section{padding:64px 0}
+.section-alt{background:var(--panel)}
+.narrow{max-width:720px;margin:0 auto}
+.grid{display:grid;gap:20px}
+.grid{grid-template-columns:repeat(1,1fr)}
+@media(min-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.grid{grid-template-columns:repeat(3,1fr)}}
+.row-head{display:flex;align-items:end;justify-content:space-between;gap:16px}
+
+/* Header */
+.site-header{position:sticky;top:0;z-index:40;background:rgba(0,0,0,.8);backdrop-filter:saturate(1.2) blur(6px);border-bottom:1px solid var(--gold)}
+.header-row{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{display:flex;align-items:center;gap:10px;color:var(--text);text-decoration:none}
+.brand-logo{width:40px;height:40px;border-radius:50%}
+.brand-name{font-weight:800;color:var(--gold)}
+.nav{display:flex;gap:16px;align-items:center}
+.nav a{color:var(--text);text-decoration:none;opacity:.9}
+.nav a:hover{color:var(--gold)}
+.nav-toggle{display:none;background:transparent;border:1px solid var(--border);color:var(--text);padding:8px 10px;border-radius:8px}
+@media(max-width:900px){
+  .nav{display:none}
+  .nav-toggle{display:inline-block}
+  .nav.open{display:flex;flex-direction:column;position:absolute;right:20px;top:62px;background:var(--panel-2);padding:12px;border:1px solid var(--border);border-radius:12px}
+}
+
+/* Hero */
+.hero{background:linear-gradient(160deg,#000 0%,#0a0a0a 55%,#000 100%)}
+.pill{display:inline-block;background:var(--gold);color:#000;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:700}
+h1{font-size:36px;line-height:1.15;margin:12px 0 8px}
+.lead{color:#d7d7d7;max-width:760px;margin:0 auto}
+.gradient{background:linear-gradient(90deg,var(--gold),var(--gold-2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.cta-row{display:flex;gap:12px;justify-content:center;margin-top:16px;flex-wrap:wrap}
+.btn{background:var(--gold);color:#000;border:none;border-radius:12px;padding:10px 16px;font-weight:800;text-decoration:none}
+.btn:hover{filter:brightness(1.05)}
+.btn-outline{background:transparent;color:var(--text);border:1px solid var(--gold)}
+.btn-ghost{background:#151515;color:var(--text);border:1px solid var(--border)}
+
+/* Cards */
+.card{background:var(--panel-2);border:1px solid var(--border);border-radius:16px;padding:18px}
+.card h3{margin-top:0}
+
+/* Newsletter / forms */
+.newsletter, .contact-form{background:var(--panel-2);border:1px solid var(--border);border-radius:16px;padding:18px}
+input, textarea{
+  width:100%;border:1px solid var(--border);border-radius:10px;background:#0d0d0d;color:var(--text);
+  padding:12px;margin:6px 0 10px
+}
+.form-actions{display:flex;gap:10px;flex-wrap:wrap}
+
+/* Tags e texto */
+.muted{color:var(--muted)}
+.tag{display:inline-block;border:1px solid var(--border);border-radius:999px;padding:4px 8px;font-size:12px;color:var(--muted);margin-bottom:8px}
+
+/* Ads placeholder */
+.ads{display:grid;place-items:center;border:1px dashed var(--border);border-radius:16px;height:96px;color:#9a9a9a;margin-top:16px}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--border);background:#0a0a0a}
+.footer-grid{display:grid;gap:16px;grid-template-columns:1fr}
+.footer-nav, .footer-info{display:grid;gap:8px}
+.footer-nav a{color:var(--text);text-decoration:none}
+.footer-nav a:hover{color:var(--gold)}
+.copy{border-top:1px solid var(--border);text-align:center;color:#9a9a9a;padding:12px}
+
+/* Bot FAB */
+.bot-fab{
+  position:fixed;right:18px;bottom:18px;background:linear-gradient(135deg,var(--gold),var(--gold-2));
+  color:#111;text-decoration:none;padding:12px 14px;border-radius:999px;font-weight:800;box-shadow:0 6px 24px rgba(0,0,0,.35)
+}
