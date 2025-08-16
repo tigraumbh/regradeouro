@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Regra de Ouro SST • Segurança do Trabalho</title>
+
+  <!-- SEO básico -->
+  <meta name="description" content="Regra de Ouro SST — Consultoria, treinamentos e soluções em Segurança do Trabalho com foco em conformidade e IA." />
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" href="images/logo.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Regra de Ouro SST" />
+  <meta property="og:description" content="Consultoria, treinamentos e soluções em Segurança do Trabalho." />
+  <meta property="og:image" content="images/logo.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#home" aria-label="Regra de Ouro SST">
+        <img src="images/logo.png" alt="Logo Regra de Ouro SST" class="brand-logo" />
+        <span class="brand-name">Regra de Ouro SST</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+      <nav class="nav" id="nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#epis">EPIs</a>
+        <a href="#blog">Blog</a>
+        <a href="#newsletter">Newsletter</a>
+        <a href="#bot">BOT IA</a>
+        <a href="#contato" class="btn btn-outline">Proposta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="section hero">
+      <div class="container">
+        <span class="pill">Regra de Ouro SST</span>
+        <h1>Segurança do Trabalho moderna, <span class="gradient">eficiente</span> e orientada a dados.</h1>
+        <p class="lead">
+          Consultoria, treinamentos por NR, AET, PGR e dashboards com IA. Conformidade, indicadores claros e operação segura.
+        </p>
+        <div class="cta-row">
+          <a href="#contato" class="btn">Solicitar Proposta</a>
+          <a href="https://wa.me/5531988992795" target="_blank" rel="noopener" class="btn btn-outline">Falar no WhatsApp</a>
+          <a href="#servicos" class="btn btn-ghost">Ver Serviços</a>
+        </div>
+
+        <!-- Placeholder AdSense (troque ca-pub e data-ad-slot quando tiver aprovação) -->
+        <div class="ads">
+          <!-- <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXXXXXXXXXX" data-ad-slot="1111111111" data-ad-format="auto"></ins>
+          <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script> -->
+          <small>Espaço para anúncio</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="section">
+      <div class="container">
+        <h2>Serviços Principais</h2>
+        <p class="muted">Alinhados ao seu contexto, com IA para reduzir riscos, custos e tempo.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Segurança do Trabalho</h3>
+            <ul>
+              <li>PGR, LTCAT, AET e inventário de riscos</li>
+              <li>Medições: ruído, vibração, calor, agentes químicos</li>
+              <li>Apoio técnico presencial e remoto</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Saúde Ocupacional</h3>
+            <ul>
+              <li>PCMSO / ASO e gestão de prontuários</li>
+              <li>Exames ocupacionais (admissional, periódico, retorno)</li>
+              <li>Integração com clínicas/telemedicina</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Cursos e Treinamentos (NRs)</h3>
+            <ul>
+              <li>Formação e reciclagem (presencial/EAD)</li>
+              <li>Materiais atualizados por NR</li>
+              <li>Catálogo em plataformas parceiras</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Ergonomia (AET)</h3>
+            <ul>
+              <li>AET completa com recomendações</li>
+              <li>Melhorias por posto de trabalho</li>
+              <li>Follow-up e monitoramento</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>IA + Dashboards</h3>
+            <ul>
+              <li>Prevenção preditiva</li>
+              <li>Indicadores executivos</li>
+              <li>Integrações e automações</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Auditoria / Perícia / Defesas</h3>
+            <ul>
+              <li>Auditorias digitais e presenciais</li>
+              <li>Laudos e pareceres</li>
+              <li>Defesas e suporte jurídico</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURSOS (AFILIADOS) -->
+    <section id="cursos" class="section section-alt">
+      <div class="container">
+        <div class="row-head">
+          <h2>Cursos & eBooks</h2>
+          <a href="#" class="btn btn-ghost">Ver todos</a>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>NR-35 Trabalho em Altura</h3>
+            <a class="btn" href="https://exemplo.com/curso-nr35?aff=teste" target="_blank" rel="noopener">Acessar</a>
+          </article>
+          <article class="card">
+            <h3>NR-10 Segurança em Eletricidade</h3>
+            <a class="btn" href="https://exemplo.com/curso-nr10?aff=teste" target="_blank" rel="noopener">Acessar</a>
+          </article>
+          <article class="card">
+            <h3>Gestão de Riscos (PGR)</h3>
+            <a class="btn" href="https://exemplo.com/curso-pgr?aff=teste" target="_blank" rel="noopener">Acessar</a>
+          </article>
+          <article class="card">
+            <h3>LGPD aplicada à SST</h3>
+            <a class="btn" href="https://exemplo.com/curso-lgpd-sst?aff=teste" target="_blank" rel="noopener">Acessar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EPIs (AFILIADOS) -->
+    <section id="epis" class="section">
+      <div class="container">
+        <h2>EPIs Recomendados</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Cabeça</h3>
+            <p>Capacetes, protetores faciais e óculos.</p>
+            <a class="btn btn-outline" href="https://loja.exemplo.com/epis-cabeca?aff=teste" target="_blank" rel="noopener">Ver Itens</a>
+          </article>
+          <article class="card">
+            <h3>Tronco</h3>
+            <p>Coletes, vestimentas e cintos de segurança.</p>
+            <a class="btn btn-outline" href="https://loja.exemplo.com/epis-tronco?aff=teste" target="_blank" rel="noopener">Ver Itens</a>
+          </article>
+          <article class="card">
+            <h3>Inferiores</h3>
+            <p>Calçados, joelheiras e proteção de pernas.</p>
+            <a class="btn btn-outline" href="https://loja.exemplo.com/epis-inferiores?aff=teste" target="_blank" rel="noopener">Ver Itens</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG + NEWSLETTER -->
+    <section id="blog" class="section section-alt">
+      <div class="container">
+        <div class="row-head">
+          <h2>Blog & Newsletter</h2>
+          <a href="#" class="btn btn-ghost">Ver Blog</a>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <span class="tag">Guia</span>
+            <h3>Checklist de Auditoria Digital em SST</h3>
+            <a class="btn btn-outline" href="https://blog.exemplo.com/auditoria-digital" target="_blank" rel="noopener">Ler artigo</a>
+          </article>
+          <article class="card">
+            <span class="tag">IA</span>
+            <h3>Como integrar IA nos seus indicadores</h3>
+            <a class="btn btn-outline" href="https://blog.exemplo.com/ia-indicadores" target="_blank" rel="noopener">Ler artigo</a>
+          </article>
+          <article class="card">
+            <span class="tag">Ergonomia</span>
+            <h3>Ergonomia: ganhos rápidos em 30 dias</h3>
+            <a class="btn btn-outline" href="https://blog.exemplo.com/ergonomia-30-dias" target="_blank" rel="noopener">Ler artigo</a>
+          </article>
+        </div>
+
+        <!-- Newsletter (Netlify Forms) -->
+        <div id="newsletter" class="newsletter">
+          <h3>Assine a Newsletter</h3>
+          <form name="newsletter" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="newsletter" />
+            <input type="email" name="email" placeholder="Seu e-mail" required />
+            <button class="btn" type="submit">Assinar</button>
+          </form>
+          <small class="muted">Você pode cancelar quando quiser.</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO / PROPOSTA -->
+    <section id="contato" class="section">
+      <div class="container narrow">
+        <h2>Solicite uma Proposta</h2>
+        <p class="muted">Descreva o contexto (setor, unidades, nº de colaboradores) e o serviço desejado.</p>
+        <form name="contato" method="POST" data-netlify="true" class="contact-form">
+          <input type="hidden" name="form-name" value="contato" />
+          <input type="text" name="nome" placeholder="Nome" required />
+          <input type="email" name="email" placeholder="E-mail" value="brenodacostacoelho@gmail.com" required />
+          <input type="text" name="whatsapp" placeholder="WhatsApp" value="(31) 98899-2795" />
+          <textarea name="mensagem" rows="5" placeholder="Descreva a necessidade (NR-35, AET, Auditoria, Dashboards)"></textarea>
+          <div class="form-actions">
+            <button class="btn" type="submit">Enviar</button>
+            <a class="btn btn-outline" href="https://wa.me/5531988992795" target="_blank" rel="noopener">Falar no WhatsApp</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Placeholder AdSense global -->
+    <section class="section">
+      <div class="container">
+        <div class="ads"><small>Espaço para AdSense (728x90 / 970x90)</small></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- BOT IA (placeholder: trocar por script/iframe real do seu provedor) -->
+  <a id="bot" class="bot-fab" href="https://wa.me/5531988992795" target="_blank" rel="noopener" title="Bot de Segurança do Trabalho">🤖 Bot SST</a>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong class="brand-name">Regra de Ouro SST</strong>
+        <p class="muted">Segurança integrada, ergonomia e IA aplicada.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#epis">EPIs</a>
+        <a href="#blog">Blog</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <ul class="footer-info">
+        <li>E-mail: brenodacostacoelho@gmail.com</li>
+        <li>WhatsApp: (31) 98899-2795</li>
+        <li>Brasil • remoto e presencial</li>
+      </ul>
+    </div>
+    <div class="copy">© <span id="year"></span> Regra de Ouro SST. Todos os direitos reservados.</div>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- AdSense global (adicione seu client quando aprovado)
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossorigin="anonymous"></script>
+  -->
+</body>
+</html>
